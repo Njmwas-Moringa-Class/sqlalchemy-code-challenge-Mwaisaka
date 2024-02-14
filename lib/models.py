@@ -12,8 +12,8 @@ Base = declarative_base()
 engine = create_engine('sqlite:///db/restaurants.db', echo=True)
 
 
-# class Review(Base):
-#     pass
+class Review(Base):
+    pass
 
 class Restaurant(Base):
     __tablename__ = 'restaurants'
