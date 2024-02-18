@@ -2,7 +2,7 @@
 import random
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-import ipdb;
+from lib.models import Restaurant,Customer, Review
 
 
 if __name__ == '__main__':
@@ -11,4 +11,7 @@ if __name__ == '__main__':
     Session = sessionmaker(bind=engine)
     session = Session()
 
-    ipdb.set_trace()
+    import ipdb;ipdb.set_trace()
+
+    
+    
