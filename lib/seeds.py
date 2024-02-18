@@ -63,3 +63,5 @@ if __name__ == '__main__':
     session.bulk_save_objects(reviews)
     session.commit()
     session.close()
+    
+  
